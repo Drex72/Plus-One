@@ -1,0 +1,17 @@
+{
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 150,
+    "semi": true,
+    "tabWidth": 4,
+    "bracketSpacing": true,
+
+    "overrides": [
+        {
+            "files": "**/*.router.ts",
+            "options": {
+                "printWidth": 80
+            }
+        }
+    ]
+}
